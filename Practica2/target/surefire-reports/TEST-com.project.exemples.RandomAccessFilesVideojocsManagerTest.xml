@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.113" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/test-classes:/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/classes:/home/nacro/.m2/repository/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar:/home/nacro/.m2/repository/org/json/json/20240303/json-20240303.jar:/home/nacro/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/home/nacro/.m2/repository/org/slf4j/slf4j-simple/2.0.3/slf4j-simple-2.0.3.jar:/home/nacro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/nacro/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/nacro/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/nacro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/nacro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/nacro/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-21-oracle-x64/lib"/>
+    <property name="sun.java.command" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/surefire/surefirebooter9326347512470801484.jar /home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/surefire 2024-10-06T22-20-25_606-jvmRun1 surefire5150174331042218939tmp surefire_016923649408997753386tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/test-classes:/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/classes:/home/nacro/.m2/repository/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar:/home/nacro/.m2/repository/org/json/json/20240303/json-20240303.jar:/home/nacro/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/home/nacro/.m2/repository/org/slf4j/slf4j-simple/2.0.3/slf4j-simple-2.0.3.jar:/home/nacro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/nacro/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/nacro/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/nacro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/nacro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/nacro/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/nacro"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-21-oracle-x64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida/target/surefire/surefirebooter9326347512470801484.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="nacro"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-45-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/nacro/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/home/nacro/Documents/GitHub/DAM-M06-UF01-PR1.2-24-25-Practica-Punt-Partida"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testActualitzarVideojocNoExistent" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.017">
+    <system-out><![CDATA[No s'ha trobat el videojoc amb registre: 999
+]]></system-out>
+  </testcase>
+  <testcase name="testActualitzarNomVideojoc" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.017">
+    <system-out><![CDATA[Videojoc afegit correctament: Assassin's Creed
+Nom actualitzat correctament per al registre: 1
+Registre: 1, Nom: Assassin's Creed Valhalla
+]]></system-out>
+  </testcase>
+  <testcase name="testLecturaMultiplesVideojocs" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.02">
+    <system-out><![CDATA[Videojoc afegit correctament: Videojoc1
+Videojoc afegit correctament: Videojoc2
+Videojoc afegit correctament: Videojoc3
+Videojoc afegit correctament: Videojoc4
+Videojoc afegit correctament: Videojoc5
+Videojoc afegit correctament: Videojoc6
+Videojoc afegit correctament: Videojoc7
+Videojoc afegit correctament: Videojoc8
+Videojoc afegit correctament: Videojoc9
+Videojoc afegit correctament: Videojoc10
+Videojoc afegit correctament: Videojoc11
+Videojoc afegit correctament: Videojoc12
+Videojoc afegit correctament: Videojoc13
+Videojoc afegit correctament: Videojoc14
+Videojoc afegit correctament: Videojoc15
+Videojoc afegit correctament: Videojoc16
+Videojoc afegit correctament: Videojoc17
+Videojoc afegit correctament: Videojoc18
+Videojoc afegit correctament: Videojoc19
+Videojoc afegit correctament: Videojoc20
+Videojoc afegit correctament: Videojoc21
+Videojoc afegit correctament: Videojoc22
+Videojoc afegit correctament: Videojoc23
+Videojoc afegit correctament: Videojoc24
+Videojoc afegit correctament: Videojoc25
+Videojoc afegit correctament: Videojoc26
+Videojoc afegit correctament: Videojoc27
+Videojoc afegit correctament: Videojoc28
+Videojoc afegit correctament: Videojoc29
+Videojoc afegit correctament: Videojoc30
+Videojoc afegit correctament: Videojoc31
+Videojoc afegit correctament: Videojoc32
+Videojoc afegit correctament: Videojoc33
+Videojoc afegit correctament: Videojoc34
+Videojoc afegit correctament: Videojoc35
+Videojoc afegit correctament: Videojoc36
+Videojoc afegit correctament: Videojoc37
+Videojoc afegit correctament: Videojoc38
+Videojoc afegit correctament: Videojoc39
+Videojoc afegit correctament: Videojoc40
+Videojoc afegit correctament: Videojoc41
+Videojoc afegit correctament: Videojoc42
+Videojoc afegit correctament: Videojoc43
+Videojoc afegit correctament: Videojoc44
+Videojoc afegit correctament: Videojoc45
+Videojoc afegit correctament: Videojoc46
+Videojoc afegit correctament: Videojoc47
+Videojoc afegit correctament: Videojoc48
+Videojoc afegit correctament: Videojoc49
+Videojoc afegit correctament: Videojoc50
+Videojoc afegit correctament: Videojoc51
+Videojoc afegit correctament: Videojoc52
+Videojoc afegit correctament: Videojoc53
+Videojoc afegit correctament: Videojoc54
+Videojoc afegit correctament: Videojoc55
+Videojoc afegit correctament: Videojoc56
+Videojoc afegit correctament: Videojoc57
+Videojoc afegit correctament: Videojoc58
+Videojoc afegit correctament: Videojoc59
+Videojoc afegit correctament: Videojoc60
+Videojoc afegit correctament: Videojoc61
+Videojoc afegit correctament: Videojoc62
+Videojoc afegit correctament: Videojoc63
+Videojoc afegit correctament: Videojoc64
+Videojoc afegit correctament: Videojoc65
+Videojoc afegit correctament: Videojoc66
+Videojoc afegit correctament: Videojoc67
+Videojoc afegit correctament: Videojoc68
+Videojoc afegit correctament: Videojoc69
+Videojoc afegit correctament: Videojoc70
+Videojoc afegit correctament: Videojoc71
+Videojoc afegit correctament: Videojoc72
+Videojoc afegit correctament: Videojoc73
+Videojoc afegit correctament: Videojoc74
+Videojoc afegit correctament: Videojoc75
+Videojoc afegit correctament: Videojoc76
+Videojoc afegit correctament: Videojoc77
+Videojoc afegit correctament: Videojoc78
+Videojoc afegit correctament: Videojoc79
+Videojoc afegit correctament: Videojoc80
+Videojoc afegit correctament: Videojoc81
+Videojoc afegit correctament: Videojoc82
+Videojoc afegit correctament: Videojoc83
+Videojoc afegit correctament: Videojoc84
+Videojoc afegit correctament: Videojoc85
+Videojoc afegit correctament: Videojoc86
+Videojoc afegit correctament: Videojoc87
+Videojoc afegit correctament: Videojoc88
+Videojoc afegit correctament: Videojoc89
+Videojoc afegit correctament: Videojoc90
+Videojoc afegit correctament: Videojoc91
+Videojoc afegit correctament: Videojoc92
+Videojoc afegit correctament: Videojoc93
+Videojoc afegit correctament: Videojoc94
+Videojoc afegit correctament: Videojoc95
+Videojoc afegit correctament: Videojoc96
+Videojoc afegit correctament: Videojoc97
+Videojoc afegit correctament: Videojoc98
+Videojoc afegit correctament: Videojoc99
+Videojoc afegit correctament: Videojoc100
+]]></system-out>
+  </testcase>
+  <testcase name="testNomsAmbCaractersXinesos" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.004">
+    <system-out><![CDATA[Videojoc afegit correctament: 王者荣耀
+Videojoc afegit correctament: 和平精英
+]]></system-out>
+  </testcase>
+  <testcase name="testTruncamentNomVideojoc" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.004">
+    <system-out><![CDATA[Videojoc afegit correctament: UnNomMoltLlargQueSuperaEls40BytesDeLongitud
+]]></system-out>
+  </testcase>
+  <testcase name="testLlistarVideojocs" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.004">
+    <system-out><![CDATA[Videojoc afegit correctament: Assassin's Creed
+Videojoc afegit correctament: The Legend of Zelda
+]]></system-out>
+  </testcase>
+  <testcase name="testNomsAmbAccentsICaractersEspecials" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.005">
+    <system-out><![CDATA[Videojoc afegit correctament: Final Fantasy
+Videojoc afegit correctament: Pokémon
+]]></system-out>
+  </testcase>
+  <testcase name="testAfegirIConsultarVideojoc" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.007">
+    <system-out><![CDATA[Videojoc afegit correctament: Assassin's Creed
+Registre: 1, Nom: Assassin's Creed
+]]></system-out>
+  </testcase>
+  <testcase name="testConsultarVideojocNoExistent" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.006">
+    <system-out><![CDATA[Videojoc afegit correctament: Assassin's Creed
+Videojoc afegit correctament: The Legend of Zelda
+No s'ha trobat el videojoc amb registre: 3
+]]></system-out>
+  </testcase>
+  <testcase name="testMidaRegistreCorrecte" classname="com.project.exemples.RandomAccessFilesVideojocsManagerTest" time="0.005">
+    <system-out><![CDATA[Videojoc afegit correctament: Test Videojoc
+]]></system-out>
+  </testcase>
+</testsuite>
